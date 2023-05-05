@@ -133,7 +133,7 @@ const getInfo = () => {
     packages.length + devPackages.length
   } (npm)\n`;
   message += `<span style="color: ${mainColor}">Resolution</span>: ${resolution}\n`;
-  message += `<span style="color: ${mainColor}">Shell</span>: m4tt72-web\n`;
+  message += `<span style="color: ${mainColor}">Shell</span>: hashwarlock-web\n`;
   message += `<span style="color: ${mainColor}">Theme</span>: ${theme}\n`;
   message += `<span style="color: ${mainColor}">License</span>: ${packageJson.license}\n`;
   message += `<span style="color: ${mainColor}">Version</span>: ${packageJson.version}\n`;
@@ -142,7 +142,6 @@ const getInfo = () => {
     visitedAt,
   )}\n`;
   message += `<span style="color: ${mainColor}">Author</span>: ${packageJson.author.name} (${packageJson.author.email})\n`;
-  message += `<span style="color: ${mainColor}">Donate</span>: <a href="${packageJson.funding.url}" target="_blank">${packageJson.funding.type}</a>\n`;
 
   return message;
 };

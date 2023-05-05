@@ -1,19 +1,15 @@
 {
-  "name": "terminal",
-  "version": "2.14.4",
+  "name": "wrlx-terminal",
+  "version": "1.0.0",
   "license": "MIT",
   "author": {
-    "name": "Yassine Fathi",
-    "url": "https://m4tt72.com",
-    "email": "hi@m4tt72.com"
-  },
-  "funding": {
-    "type": "Paypal",
-    "url": "https://paypal.me/y4ss1n3"
+    "name": "Joshua",
+    "url": "https://hashwarlock.dev",
+    "email": "bitsbender@protonmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/m4tt72/terminal"
+    "url": "https://github.com/hashwarlock/terminal"
   },
   "scripts": {
     "start": "next start",

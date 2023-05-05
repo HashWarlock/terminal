@@ -1,14 +1,12 @@
-# [M4TT72 | Terminal](https://term.m4tt72.com)
+# [hashwarlock | Terminal](https://hashwarlock.dev)
 
-A terminal style website
+A terminal style website based on M4TT72
 
 ![screenshot](/docs/screenshot.png)
 
 ## why?
 
-TL;DR: why not?
-
-I'm a Linux enthusiast, and I tried creating something that will allow 'normal' people to have a glimpse at my world.
+TL;DR: why not? M4TT72 made a cool project and I had to build a custom version for myself :P
 
 ## Quick Start
 
@@ -54,11 +52,11 @@ Here's a sample of the `config.json` file:
 
 ```json
 {
-  "bioUrl": "https://raw.githubusercontent.com/m4tt72/m4tt72/master/README.md",
+  "bioUrl": "https://raw.githubusercontent.com/hashwarlock/hashwarlock/master/README.md",
   "social": {
-    "instagram": "m4tt72",
-    "github": "m4tt72",
-    "linkedin": "yassinefathi"
+    "twitter": "hashwarlock",
+    "github": "hashwarlock",
+    "linkedin": "joshua-waller-33935773"
   },
   "theme": "gruvboxdark" // list of themes available in themes.json
 }
